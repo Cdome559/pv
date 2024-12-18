@@ -17,8 +17,11 @@ Data preprocessing(eg.KITTI)
 python -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos tools/cfgs/dataset_configs/kitti_dataset.yaml
 ```
 
-Training
+Training and Testing
 --------
 ```
 python train.py --cfg_file cfgs/kitti_models/pv.yaml
+```
+```
+python test.py --cfg_file ${CONFIG_FILE} --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
 ```
