@@ -19,11 +19,11 @@ python -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos tools/cfgs/datas
 
 Training and Testing
 --------
-train
+###train
 ```
 python train.py --cfg_file cfgs/kitti_models/pv.yaml
 ```
-test
+###test
 ```
 python test.py --cfg_file ${CONFIG_FILE} --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
 ```
