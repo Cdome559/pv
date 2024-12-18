@@ -28,4 +28,4 @@ python test.py --cfg_file ${CONFIG_FILE} --batch_size ${BATCH_SIZE} --ckpt ${CKP
 
 Important
 ---------
-![image]
+![image](Visualization.pdf)
