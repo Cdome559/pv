@@ -28,4 +28,5 @@ python test.py --cfg_file ${CONFIG_FILE} --batch_size ${BATCH_SIZE} --ckpt ${CKP
 
 Important
 ---------
+Visualization results of complex scenes on the KITTI.
 ![image](Visualization.pdf)
