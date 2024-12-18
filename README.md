@@ -11,7 +11,13 @@ All the codes are tested in the following environment:
 * PyTorch 1.1 or higher (tested on PyTorch 1.1, 1,3, 1,5~1.10)
 * CUDA 9.0 or higher (PyTorch 1.3+ needs CUDA 9.2+)
 
-training
+Data preprocessing(eg.KITTI)
+------------------
+```
+python -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos tools/cfgs/dataset_configs/kitti_dataset.yaml
+```
+
+Training
 --------
 ```
 python train.py --cfg_file cfgs/kitti_models/pv.yaml
