@@ -25,8 +25,3 @@ python train.py --cfg_file cfgs/kitti_models/pv.yaml
 ```
 python test.py --cfg_file ${CONFIG_FILE} --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
 ```
-
-Important
----------
-Visualization results of complex scenes on the KITTI.
-![image](Visualization.pdf)
